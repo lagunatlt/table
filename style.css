@@ -1,0 +1,183 @@
+.table__wrap {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.items {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.item {
+	display: block;
+	text-align: center;
+	width: 145px;
+	border: 1px solid #fff;
+	font-size: 12px;
+	height: 50px;
+	color: #1e1e1e;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.timetable {
+	width: 1071px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	border: 1px solid #fff;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.line__weekday-item {
+	height: 24px;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #BC96C5;
+	color: #fff;
+	font-weight: bold;
+	width: 145px;
+	display: block;
+	border: 1px solid #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.line__time {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 54px;
+	font-weight: bold;
+	font-size: 13px;
+	background-color: #BC96C5;
+	color: #fff;
+	font-weight: bold;
+	border: 1px solid #fff;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+#allrecords ul {
+	padding-left: 0;
+}
+
+.t-records ul {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.indtr,
+.pilates,
+.pilates-str,
+.port,
+.zdor,
+.strech,
+.fit,
+.shpagat,
+.sila-pilates,
+.mfr,
+.mama,
+.zumba,
+.sila-body,
+.press,
+.tabata,
+.sila-kardio,
+.kardio-sila,
+.step,
+.trx-lu,
+.trx-st,
+.trx-kr,
+.trx-in,
+.all {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+
+.indtr {
+	background-color: #D9D2E9;
+}
+
+.pilates,
+.pilates-str,
+.port,
+.zdor,
+.strech,
+.fit,
+.shpagat,
+.sila-pilates,
+.mfr {
+	background-color: #B6D7A8;
+}
+
+.mama {
+	background-color: #C27BA0;
+}
+
+.zumba {
+	background-color: #FF00FF;
+}
+
+.sila-body,
+.press,
+.tabata,
+.sila-kardio,
+.kardio-sila,
+.step {
+	background-color: #E06666;
+}
+
+.trx-lu,
+.trx-st,
+.trx-kr,
+.trx-in {
+	background-color: #FFD966;
+}
+
+@media (max-width: 1085px) {
+	.table__wrap {
+		overflow-x: scroll;
+		border: 1px solid #b9b9b9;
+	}
+}
