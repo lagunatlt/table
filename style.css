@@ -125,7 +125,8 @@
 .trx-lu,
 .trx-st,
 .trx-kr,
-.trx-in {
+.trx-in,
+.all {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
