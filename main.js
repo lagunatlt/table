@@ -198,9 +198,12 @@ let trx_in = function (el) {
 	el.classList.add('trx-in');
 	el.innerText = 'TRX Interval';
 };
+/* ------------------ */
+
+
 let qwer = function(el) {
 	el.classList.add('all');
-	el.style.backgroundColor = 'red';
+	el.style.backgroundColor = '#74ce5b';
 	el.innerText = 'Привет';
 }
 
