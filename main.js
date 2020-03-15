@@ -204,7 +204,7 @@ let trx_in = function (el) {
 let qwer = function(el) {
 	el.classList.add('all');
 	el.style.backgroundColor = '#74ce5b';
-	el.innerText = 'Привет';
+	el.innerText = 'Очень сложная треннировка капец как';
 }
 
 
