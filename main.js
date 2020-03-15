@@ -199,9 +199,9 @@ let trx_in = function (el) {
 	el.innerText = 'TRX Interval';
 };
 let qwer = function(el) {
+	el.classList.add('all');
 	el.style.backgroundColor = 'red';
 	el.innerText = 'Привет';
-	el.classList.add('all');
 }
 
 
