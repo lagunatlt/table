@@ -207,6 +207,16 @@ let qwer = function(el) {
 	el.innerText = 'Очень сложная треннировка капец как';
 }
 
+// let new_name = function(name(), color, text) {
+// 	function name(el) {
+// 		el.classList.add('all')
+// 		el.style.backgroundColor = color
+// 		el.innerText = text
+
+// 	}
+// }
+
+// new_name(qwer1, blue, 'хай')
 
 // mo - Понедельник
 
