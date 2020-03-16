@@ -208,10 +208,15 @@ let qwer = function(el) {
 }
 
 
+
+// function newNameParam(color, text) {
+
+// }
+
 // mo - Понедельник
 
 qwer(mo8)
-zd(mo9)
+si(mo9)
 si(mo10)
 st(mo11)
 it(mo12)
